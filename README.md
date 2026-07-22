@@ -2,6 +2,8 @@
 
 A polished browser chess game with a fully local computer opponent and post-game analysis.
 
+Play it on [GitHub Pages](https://orscathinus.github.io/chess/) or on the [Sites deployment](https://grandmaster-chess.thirtytwo32percent.chatgpt.site/).
+
 ## Features
 
 - Complete legal chess rules through `chess.js`, including castling, en passant, promotion, repetition, stalemate, and checkmate
@@ -27,6 +29,7 @@ Then open the local URL printed by Vite.
 ```bash
 npm run lint
 npm run build
+npm run build:pages
 ```
 
 The app is implemented with React, TypeScript, Vinext, and `chess.js`.
